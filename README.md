@@ -2,7 +2,7 @@
 
 Este es un proyecto de una API RESTful desarrollada con **Spring Boot** y **Java**, construida bajo una arquitectura genérica y escalable para facilitar la mantenibilidad y extender nuevas entidades rápidamente.
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 - **Java 17+**
 - **Spring Boot** (Web, Data JPA)
@@ -11,7 +11,7 @@ Este es un proyecto de una API RESTful desarrollada con **Spring Boot** y **Java
 - **Bases de Datos Relacionales**
 - **Gradle** (Como gestor de dependencias)
 
-## 🏗️ Arquitectura del Proyecto
+##  Arquitectura del Proyecto
 
 El proyecto implementa una estructura genérica mediante el uso de clases y controladores base:
 
@@ -28,7 +28,7 @@ Actualmente la API gestiona las siguientes entidades:
 - **Libro**
 - **Domicilio**
 
-## 🚀 Endpoints Principales
+##  Endpoints Principales
 
 Cada entidad que extienda de los controladores base expone automáticamente las siguientes rutas genéricas:
 
@@ -46,7 +46,7 @@ Cada entidad que extienda de los controladores base expone automáticamente las 
 - `GET /api/v1/personas/search?filtro={texto}`: Búsqueda personalizada en nombres y apellidos.
 - `GET /api/v1/personas/searchPaged?filtro={texto}&page=0&size=10`: Búsqueda personalizada con paginación.
 
-## ⚙️ Cómo Ejecutar el Proyecto
+##  Cómo Ejecutar el Proyecto
 
 1. Clona el repositorio.
 2. Configura los accesos a la base de datos en tu archivo `application.properties` o `application.yml`.
